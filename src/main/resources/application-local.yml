@@ -1,0 +1,33 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+
+  datasource:
+    url: jdbc:mysql://pnl.cb1o9kaae1km.ap-northeast-1.rds.amazonaws.com:3306/zsystem?zerodatetimebehavior=Converttonull&serverTimezone=Asia/Tokyo
+    username: 3sapp
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  zsystem-datasource:
+    url: jdbc:mysql://pnl.cb1o9kaae1km.ap-northeast-1.rds.amazonaws.com:3306/zsystem?zerodatetimebehavior=Converttonull&serverTimezone=Asia/Tokyo
+    username: 3sapp
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  fatpc-accounting-datasource:
+    url: jdbc:mysql://pnl-fatpc-accounting.cb1o9kaae1km.ap-northeast-1.rds.amazonaws.com:3306/zsystem?zerodatetimebehavior=Converttonull&serverTimezone=Asia/Tokyo
+    username: 3sapp
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  fatpc-tax-datasource:
+    url: jdbc:mysql://pnl-fatpc-tax.cb1o9kaae1km.ap-northeast-1.rds.amazonaws.com:3306/zsystem?zerodatetimebehavior=Converttonull&serverTimezone=Asia/Tokyo
+    username: 3sapp
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  logdb-datasource:
+    url: jdbc:mysql://pnl-log.cb1o9kaae1km.ap-northeast-1.rds.amazonaws.com:3306/zsystem?zerodatetimebehavior=Converttonull&serverTimezone=Asia/Tokyo
+    username: 3sapp
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
